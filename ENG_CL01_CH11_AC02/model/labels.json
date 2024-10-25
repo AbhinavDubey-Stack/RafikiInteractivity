@@ -1,0 +1,20 @@
+{
+  "all": {
+    "your_score": "Your score <span class='score-number'>{{correct}}</span> / {{total}}",
+    "score_popup": "<p>You scored {{correct}} out of {{total}}.</p><p>Press <b>Reattempt</b> to attempt the activity again. <br/> or <br/> Press <b>Review Answers</b> to review your answers.</p>",
+    "help": "Help",
+    "review_interactive": "Review Answers",
+    "reattempt_interactive": "Reattempt",
+    "explanation": "Explanation",
+    "previous_button": "<<",
+    "next_button": ">>",
+    "submit_button": "Submit",
+    "reset_button": "Reset",
+    "play_button": "Play",
+    "reattempt_button": "Reattempt",
+    "show_correct_button": "Show Answer(s)",
+    "show_original_button": "Your Answer(s)",
+    "loading_button": "Loading...",
+    "read_more_link": "Click here..."
+  }
+}

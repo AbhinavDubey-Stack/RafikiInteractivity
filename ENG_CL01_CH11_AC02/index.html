@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>DemoInteractivity</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" data-value="3css" type="text/css" href="css/pure.css"/>
+            <link rel="stylesheet" data-value="3css" type="text/css" href="css/grids-responsive.css"/>
+            <link rel="stylesheet" data-value="3css" type="text/css" href="css/jquery-ui.css"/>
+                <link rel="stylesheet" data-value="acss" type="text/css" href="scss/app.css"/>
+            <link rel="stylesheet" data-value="acss" type="text/css" href="scss/dialog-box.css"/>
+            <link rel="stylesheet" data-value="acss" type="text/css" href="scss/legends.css"/>
+            <link rel="stylesheet" data-value="acss" type="text/css" href="resources/fib-type-in/scss/fib-type-in.css"/>
+                <script type="application/javascript" data-value="3js" src="js/ext/jquery-3.2.1.min.js"></script>
+            <script type="application/javascript" data-value="3js" src="js/ext/jquery.imgpreload.min.js"></script>
+            <script type="application/javascript" data-value="3js" src="js/ext/jquery-ui.min.js"></script>
+            <script type="application/javascript" data-value="3js" src="js/ext/jquery-ui.js"></script>
+            <script type="application/javascript" data-value="3js" src="js/ext/mustache.min.js"></script>
+            <script type="application/javascript" data-value="3js" src="js/ext/mustache-wax.min.js"></script>
+            <script type="application/javascript" data-value="3js" src="js/ext/timer.jquery.min.js"></script>
+            <script type="application/javascript" data-value="3js" src="js/ext/underscore-min.js"></script>
+            <script type="application/javascript" data-value="3js" src="js/ext/utility.js"></script>
+                <script type="application/javascript" data-value="ajs" src="js/app.js"></script>
+            <script type="application/javascript" data-value="ajs" src="js/app-helper.js"></script>
+            <script type="application/javascript" data-value="ajs" src="resources/fib-type-in/js/fib-type-in.js"></script>
+    </head>
+<body>
+<div class="root">
+    <div id="loader" class="pure-g">
+        <div class="pure-u-1">
+            Loading your activity DemoInteractivity
+        </div>
+    </div>
+
+    <div id="app">
+    </div>
+
+    <div id="score-box" class="modal"></div>
+    <div id="incomplete-box" class="modal"></div>
+    <div id="explanation-box" class="modal"></div>
+    <div id="instruction-box" class="modal"></div>
+    <div id="help-box" class="modal"></div>
+    <div id="miniature-box" class="modal"></div>
+</div>
+<script type="application/javascript">
+    $(document).ready(function () {
+        $app.start();
+    });
+</script>
+
+</body>
+</html>

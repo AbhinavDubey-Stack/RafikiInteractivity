@@ -1,0 +1,40 @@
+<div class="pure-g">
+    <div class="pure-u-1 container pure-g">
+        <div class="pure-u-1 header">
+            <div class="pull-left activity-name" id="activity_name">
+            </div>
+        </div>
+        <div class="pure-u-1 content" id="activity">
+            <div class="pure-u-1 description">
+                {{{name}}}
+            </div>
+            <div class="pure-u-1 paragraph">
+                <div>{{&description}}</div>
+                {{#background}}
+                <img src="{{background}}" style="max-width:100%"/>
+                {{/background}}
+                {{#video}}
+                <video controls autoplay>
+                    <source src="{{video}}" type="video/mp4">
+                    Your browser does not support the audio element.
+                </video>
+                {{/video}}
+            </div>
+        </div>
+
+        <div class="pure-u-1 footer">
+            {{#audio}}
+            <audio controls autoplay class="pull-left">
+                <source src="{{audio}}" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            {{/audio}}
+
+            <ul class="pull-right">
+                <li>
+                    <a href="#" id="btn_play" class="pure-button pure-button-primary">{{{labels.play_button}}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

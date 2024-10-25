@@ -1,0 +1,98 @@
+{
+  "FIBTypeIn": {
+    "text": "Type the correct option in the given blank(s).",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "FIBDropDown": {
+    "text": " Choose the correct option from the given drop down list.",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "FIBDragDrop": {
+    "text": "",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "Sequencing": {
+    "text": "",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "Categorize": {
+    "text": "",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "DropTheBubble": {
+    "text": "Shoot the bubble when they are on the top of appropriate container",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "ShootTheBubble": {
+    "text": "Shoot the bubbles as given in guideline",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "SlidingPuzzle": {
+    "text": "Arrange the image parts",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "ZigsawPuzzle": {
+    "text": "Arrange the image parts",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "MultipleChoice": {
+    "text": "Click on the correct option to answer the given question. Then click the Submit button.",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "ImageMapDragDrop": {
+    "text": "Pick your option by clicking on it. Then click the box to drop your selected option.",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "MemoryCardMatch": {
+    "text": "Find the similar cards",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "WordSearch": {
+    "text": "Find the given words from grid",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "MatchTheFollowing": {
+    "text": "Match the sources with targets",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "JumbledWords": {
+    "text": "Arrange words/sentence in suitable manner",
+    "image": "",
+    "video": "",
+    "audio": ""
+  },
+  "Crossword": {
+    "text": "Solve the crossword activity",
+    "image": "",
+    "video": "",
+    "audio": ""
+  }
+}

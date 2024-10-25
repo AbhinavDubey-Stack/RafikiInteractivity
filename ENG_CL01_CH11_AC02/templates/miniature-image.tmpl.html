@@ -1,0 +1,15 @@
+<div class="modal-content miniature">
+    <div class="header">
+        <div class="title">{{{title}}}</div>
+    </div>
+    <div id="miniature-container" class="modal-container overflow-x">
+        {{#_image}}
+        <img src="{{_image}}" />
+        {{/_image}}
+    </div>
+    <div class="footer">
+        <a class="pure-button model-pure-button pull-right" onclick="$app.hideMiniatureBox();"
+           style="min-width:120px;">Close</a>
+    </div>
+</div>
+<div class="overlay"></div>

@@ -1,0 +1,36 @@
+{
+  "id": 789,
+  "groupId": 74,
+  "name": "11. Win or Lose ",
+  "description": "Look at the following pictures and write the suitable pairs of opposite words in the space provided below them.",
+  "shuffle": false,
+  "showScore": false,
+  "showHelp": false,
+  "uri": "",
+  "timer": { "total": 0 },
+  "activities": [
+    {
+      "caseSensitive": false,
+      "content": "<style>input{width:50px;}</style><table> <tr> <td>1.</td> <td><img src='images/1.jpg' style='width:40%'><br> {{&e1 | input}}-{{&e5 | input}}</td> <td>2.</td> <td><img src='images/2.jpg' style='width:40%'><br> {{&e2 | input}}-{{&e6 | input}}</td> </tr> <tr> <td>3.</td> <td><img src='images/3.jpg' style='width:40%'><br> {{&e3 | input}}-{{&e7 | input}}</td> <td>4.</td> <td><img src='images/4.jpg' style='width:40%'><br>{{&e4 | input}}-{{&e8 | input}}</td> </tr> </table>",
+      "targets": {
+        "e1": { "id": "e1", "answers": ["old"] },
+        "e2": { "id": "e2", "answers": ["Sun"] },
+        "e3": { "id": "e3", "answers": ["big"] },
+        "e4": { "id": "e4", "answers": ["happy"] },
+        "e5": { "id": "e5", "answers": ["young"] },
+        "e6": { "id": "e6", "answers": ["Moon"] },
+        "e7": { "id": "e7", "answers": ["small"] },
+        "e8": { "id": "e8", "answers": ["sad"] }
+      },
+      "id": 2383,
+      "type": "FIBTypeIn",
+      "activity": "11. Win or Lose ",
+      "instruction": {
+        "short": "Look at the following pictures and write the suitable pairs of opposite words in the space provided below them. "
+      },
+      "explanation": "",
+      "uri": "interactive/789/questions/2383",
+      "bgColor": "#ffffff"
+    }
+  ]
+}

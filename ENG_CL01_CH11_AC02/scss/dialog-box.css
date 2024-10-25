@@ -1,0 +1,92 @@
+/** Model box**/
+.modal {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+  box-sizing: border-box;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out; }
+  .modal:target {
+    opacity: 1;
+    visibility: visible; }
+  .modal.show {
+    opacity: 1;
+    visibility: visible; }
+  .modal .modal-content {
+    width: 90%;
+    max-width: 400px;
+    min-width: 280px;
+    margin: auto;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+    background: #ffffcc;
+    position: relative;
+    z-index: 20;
+    border-radius: 5px; }
+    .modal .modal-content .header {
+      padding: 15px;
+      border-bottom: 1px solid #e7e7e7;
+      border-radius: 5px 5px 0 0;
+      background: #adff2f; }
+      .modal .modal-content .header .title {
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 1.2em; }
+    .modal .modal-content .modal-container {
+      background: no-repeat center;
+      padding: 10px; }
+    .modal .modal-content .text {
+      text-align: center;
+      padding: 10px 5px; }
+      .modal .modal-content .text p {
+        font-size: 14px;
+        line-height: 1.6em; }
+    .modal .modal-content .footer {
+      border: none;
+      padding: 15px;
+      background: #adff2f;
+      border-bottom: 1px solid #e7e7e7;
+      border-top: 1px solid #e7e7e7;
+      border-radius: 0 0 5px 5px;
+      height: 30px; }
+      .modal .modal-content .footer .pure-button {
+        background: #364b90;
+        color: #FFFFFF; }
+  .modal .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: block;
+    opacity: 1; }
+
+.overflow-x {
+  overflow-x: auto; }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  display: none;
+  opacity: 0; }
+  .overlay:target {
+    display: block;
+    opacity: 1; }
+
+#explanation-box .modal-content {
+  max-width: 600px; }
+
+#help-box .modal-content {
+  max-width: 600px; }
+
+/*# sourceMappingURL=dialog-box.css.map */

@@ -1,0 +1,28 @@
+<div class="modal-content help">
+    <div class="header">
+        <div class="title">Help</div>
+    </div>
+    <div id="help-container" class="modal-container overflow-x">
+        {{#video}}
+        <video controls autoplay>
+            <source src="{{video}}" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        {{/video}}
+        {{#image}}
+        <img src="{{image}}" style="max-width: 100%"/>
+        {{/image}}
+        <p id="help-text">{{{text}}}</p>
+        {{#audio}}
+        <audio controls autoplay>
+            <source src="{{audio}}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        {{/audio}}
+    </div>
+    <div class="footer">
+        <a class="pure-button model-pure-button pull-right" onclick="$app.hideHelpBox();"
+           style="min-width:120px;">Close</a>
+    </div>
+</div>
+<div class="overlay"></div>

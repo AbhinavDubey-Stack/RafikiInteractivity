@@ -1,0 +1,32 @@
+.fib-type-in input {
+  margin: 0 5px;
+  border: 1px solid #cecece;
+  color: #000;
+  padding: 1px 3px; }
+.fib-type-in input:not(:placeholder-shown) {
+  /** input is not empty */
+  background: #e5ffef; }
+.fib-type-in input:placeholder-shown {
+  /** input is empty */
+  background: #fff; }
+.fib-type-in .correct, .fib-type-in .incorrect, .fib-type-in .expected, .fib-type-in .missed {
+  padding: 2px 10px;
+  border: 1px dashed blue;
+  margin: 0 5px;
+  position: relative; }
+  .fib-type-in .correct:before, .fib-type-in .incorrect:before, .fib-type-in .expected:before, .fib-type-in .missed:before {
+    display: inline-block;
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px; }
+    
+    table tr td{
+      padding: 2px;
+      vertical-align: baseline;
+    }
+
+
+/*# sourceMappingURL=fib-type-in.css.map */

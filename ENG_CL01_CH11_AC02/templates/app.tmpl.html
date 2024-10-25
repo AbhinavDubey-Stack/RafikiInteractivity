@@ -1,0 +1,60 @@
+<div class="pure-g">
+    <div class="pure-u-1 container pure-g">
+        <div class="pure-u-1 header">
+            <div class="status-bar" style="float: right">
+                <span id="activity-audio" style="float: left"/>
+                <div style="float: right; padding-top: 10px; margin-left: 5px">
+                    <div class="your-score status-item" id="your_score"></div>
+                    <div class="timer status-item" id="timer-holder">
+                        <img src="images/icon-hourglass.svg" class="nav-icons"/>
+                        <span id="timer">00:00</span>
+                    </div>
+                    <div class="status-item" id="help-btn">
+                        <a href="javascript:$app.showHelpBox();">
+                            <img src="images/icon-help.svg" class="nav-icons"/>
+                            {{{labels.help}}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="activity-name " style="clear: both">
+                {{{name}}}
+            </div>
+        </div>
+        <div class="pure-u-1 content" id="activity">
+            <div class="pure-u-1 instruction-short">
+            </div>
+            <div class="pure-u-1 root-html">
+            </div>
+            <div class="pure-u-1 root-canvas">
+            </div>
+            <div id="overlay" class="activity-overlay">
+            </div>
+        </div>
+
+        <div class="pure-u-1 legend" id="legend_section"></div>
+        <div class="pure-u-1 footer">
+            <div id="reset_section" class="pure-u-1-3">
+                <a href="#" id="btn_reset" class="pure-button">{{{labels.reset_button}}}</a>
+            </div><div id="review_section" class="pure-u-1-3 actions">
+                <!--<li><a href="javascript:void(0);"><img src="images/icon-check.svg" class="nav-icons">{{labels.review_answers}}</a>-->
+                <!--</li>-->
+                <a id="explanation-btn" href="javascript:$app.showExplanation();"><img
+                        src="images/icon-explanation.svg" class="nav-icons">{{{labels.explanation}}}
+                </a>
+            </div><div id="app-pagination" class="pure-u-1-3">
+                <a href="#" id="btn_prev" class="pure-button m-r-0">{{{labels.previous_button}}}</a>
+                <span id="current-page" class="pure-button">1</span>
+                <a href="#" id="btn_next" class="pure-button ">{{{labels.next_button}}}</a>
+            </div><div class="pure-u-1-3 action-buttons">
+                <a href="#" id="btn_show_original"
+                   class="pure-button pure-button-primary">{{{labels.show_original_button}}}</a>
+                <a href="#" id="btn_show_correct"
+                   class="pure-button pure-button-primary">{{{labels.show_correct_button}}}</a>
+                <a href="#" id="btn_submit" class="pure-button pure-button-primary">{{{labels.submit_button}}}</a>
+                <a href="#" id="btn_reattempt"
+                   class="pure-button pure-button-primary">{{{labels.reattempt_button}}}</a>
+            </div>
+        </div>
+    </div>
+</div>
